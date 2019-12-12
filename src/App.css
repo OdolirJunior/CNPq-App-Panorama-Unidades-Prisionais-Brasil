@@ -44,8 +44,17 @@
   height: 14%;
   display: flex;
 }
+.footer {
+  background-color: #b9bbbe;
+  position: fixed; /* Set the navbar to fixed position */
+  bottom: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  height: 3%;
+  display: flex;
+}
 .body-data {
   margin-top: 12%;
+  margin-bottom: 5%;
 }
 .title-navbar {
   width: 85%;

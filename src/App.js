@@ -18,7 +18,6 @@ class App extends React.Component {
   }
   async getJson() {
     await this.setState({ data: dataJSON.analise });
-    await console.log(this.state.data);
     await this.retornaMaiorPrsidio();
     await this.retornaMaiorCasoAIDS();
   }
@@ -84,6 +83,14 @@ class App extends React.Component {
               <h2>{`Percentual da população: ${this.state.percentualPopAids}%`}</h2>
             </div>
           </div>
+        </div>
+        <div className="footer">
+          <a href="https://github.com/OdolirJunior/CNPq-Panorama-unidades-prisionais" className="title-navbar" target="_blank">
+            Código das análises
+          </a>
+          <a href="https://github.com/OdolirJunior/CNPq-App-Panorama-Unidades-Prisionais-Brasil" target="_blank" className="title-navbar">
+            Código dessa página
+          </a>
         </div>
       </div>
     );
