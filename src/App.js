@@ -85,7 +85,7 @@ class App extends React.Component {
           </div>
         </div>
         <div className="footer">
-          <a href="https://github.com/OdolirJunior/CNPq-Panorama-unidades-prisionais" className="title-navbar" target="_blank">
+          <a href="https://bit.ly/34aqDHv" className="title-navbar" target="_blank">
             Código das análises
           </a>
           <a href="https://github.com/OdolirJunior/CNPq-App-Panorama-Unidades-Prisionais-Brasil" target="_blank" className="title-navbar">
